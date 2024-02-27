@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+    }
+    .message-container 
+    {
+        max-width: 600px;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+    .message 
+    {
+        clear: both;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    .message .avatar 
+    {
+        float: left;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    .message .avatar img 
+    {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .message .text 
+    {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 10px;
+        display: inline-block;
+        max-width: 70%;
+        text-align: center;
+    }
+    .message .meta 
+    {
+        margin-top: 5px;
+        font-size: 0.8em;
+        color: #666;
+        overflow: hidden;
+    }
+    .message .meta .user-info 
+    {
+        float: left;
+    }
+    .message .meta .time 
+    {
+        float: right;
+    }
+    .user1 .text 
+    {
+        background-color: #73aeec;
+        float: right;
+    }
+    .user1 .meta .user-info
+    {
+        float: right;
+    }
+    .user1 .meta .time 
+    {
+        float: left;
+    }
+    .user2 .text 
+    {
+        background-color: #d372e0;
+    }
+    .user2 .meta .user-info
+    {
+        float: left;
+    }
+    .user2 .meta .time 
+    {
+        float: right;
+    }
+</style>
+</head>
+<body>
+
+<div class="message-container">
+    <div class="message user1">
+        <div class="avatar"><img src="./avatar-659651_1280.png" alt="User 1"></div>
+        <div class="text">Привіт!Як справи?</div>
+        <div class="meta">
+            <div class="time">18:07</div>
+        </div>
+    </div>
+    <div class="message user2">
+        <div class="avatar"><img src="./icon-5359554_1280.png" alt="User 2"></div>
+        <div class="text">Привіт!Все гаразд,дякую!</div>
+        <div class="meta">
+            <div class="time">18:08</div>
+        </div>
+    </div>
+    <div class="message user1">
+        <div class="avatar"><img src="./avatar-659651_1280.png" alt="User 1"></div>
+        <div class="text">Дуже цікаво!Які у вас плани на вихідні?</div>
+        <div class="meta">
+            <div class="time">18:12</div>
+        </div>
+    </div>
+    <div class="message user2">
+        <div class="avatar"><img src="./icon-5359554_1280.png" alt="User 2"></div>
+        <div class="text">Планую відпочити на природі.Можливо,піду в парк на прогулянку.</div>
+        <div class="meta">
+            <div class="time">18:13</div>
+        </div>
+    </div>
+    <div class="message user1">
+        <div class="avatar"><img src="./avatar-659651_1280.png" alt="User 1"></div>
+        <div class="text">Звучить чудово!Можливо,приєднаюся до тебе.</div>
+        <div class="meta">
+            <div class="time">18:15</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
